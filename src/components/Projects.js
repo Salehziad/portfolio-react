@@ -5,12 +5,20 @@ import calculater from "../assets/img/calculater.PNG";
 import chat from "../assets/img/chat.PNG";
 import nameIt from "../assets/img/nameIt.PNG";
 import colorSharp2 from "../assets/img/color-sharp2.png";
+import authy from "../assets/img/authy.PNG";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
 
     const projects = [
+        {
+            title: "Authy",
+            description: "Node Js & ReactJs",
+            imgUrl: authy,
+            live: "https://auth-app-salehziad.netlify.app/",
+            github: "https://github.com/Salehziad/full-auth-project-react"
+        },
         {
             title: "Name It!",
             description: "Design & ReactJs",
