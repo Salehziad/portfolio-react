@@ -50,7 +50,6 @@ export const NavBar = () => {
               <a target='_blank' href='https://instagram.com/saleh.dalalshh?igshid=YmMyMTA2M2Y=' rel="noreferrer"><img src={navIcon3} alt="" /></a>
               <a target='_blank' href='https://instagram.com/saleh.dalalshh?igshid=YmMyMTA2M2Y=' rel="noreferrer"><img src={navIcon4} alt="" /></a>
             </div>
-            <button className="vvd" onClick={() => console.log('connect')}><span>Let’s Connect</span></button>
           </span>
         </Navbar.Collapse>
       </Container>
