@@ -2,9 +2,9 @@ pipeline {
     agent any
     stages {
         stage('Production Development') {
-            when {
-                branch "main"
-            }
+            // when {
+            //     branch "main"
+            // }
             steps {
                 sshPublisher(
                     continueOnError: false, failOnError: true,
